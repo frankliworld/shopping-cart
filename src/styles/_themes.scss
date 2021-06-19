@@ -1,0 +1,50 @@
+:root {
+  --Primary: var(--Blue);
+  --Secondary: var(--Teal);
+
+  --Dark: #000000;
+  --DarkSoft: #333333;
+  --Gray: rgb(142, 142, 147);
+  --Gray2: rgb(174, 174, 178);
+  --Gray3: rgb(199, 199, 204);
+  --Gray4: rgb(209, 209, 214);
+  --Gray5: rgb(229, 229, 234);
+  --Gray6: rgb(242, 242, 247);
+  --White: rgb(255, 255, 255);
+  --Bg: rgb(255, 255, 255);
+  --BgBlur: rgba(255, 255, 255, 0.8);
+  //
+  --Blue: rgb(0, 122, 255);
+  --Green: rgb(52, 199, 89);
+  --Indigo: rgb(88, 86, 214);
+  --Orange: rgb(255, 149, 0);
+  --Pink: rgb(255, 45, 85);
+  --Purple: rgb(175, 82, 222);
+  --Red: rgb(255, 59, 48);
+  --Teal: rgb(90, 200, 250);
+  --Yellow: rgb(255, 204, 0);
+
+  @include dark {
+    --Dark: rgb(255, 255, 255);
+    --DarkSoft: #f5f5f5;
+    --Gray: rgb(142, 142, 147);
+    --Gray2: rgb(99, 99, 102);
+    --Gray3: rgb(72, 72, 74);
+    --Gray4: rgb(58, 58, 60);
+    --Gray5: rgb(44, 44, 46);
+    --Gray6: rgb(28, 28, 30);
+    --White: #333;
+    --Bg: #222;
+    --BgBlur: rgba(33, 33, 33, 0.7);
+    //
+    --Blue: rgb(10, 132, 255);
+    --Green: rgb(48, 209, 88);
+    --Indigo: rgb(94, 92, 230);
+    --Orange: rgb(255, 159, 10);
+    --Pink: rgb(255, 55, 95);
+    --Purple: rgb(191, 90, 242);
+    --Red: rgb(255, 69, 58);
+    --Teal: rgb(100, 210, 255);
+    --Yellow: rgb(255, 214, 10);
+  }
+}
